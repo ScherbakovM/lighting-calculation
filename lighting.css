@@ -1,0 +1,149 @@
+head {
+    margin: 0;
+}
+body {
+    padding:0px;
+    margin: 0px;
+    width:  110%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.buttonForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#calcForm {
+   box-sizing: border-box;
+   margin-top: 10%;
+   display: flex;
+   justify-content: start;
+   align-items: flex-start;
+   flex-direction: column;
+   width:  700px;
+   height: 550px;
+   background-color: rgb(255, 255, 255);
+   border: 1px solid black;
+   border-radius: 25px;
+   box-shadow: 1px 2px 0px rgb(71, 71, 71);
+   scroll-snap-type: y mandatory;
+}
+
+#btnFirst {
+
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 5px;
+    width: 5px;
+    height: 14px;
+    border-radius: 99px;
+    border: 1px solid;
+    background-color: #f00c00;
+
+}
+#btnSecond {
+    margin-top: 15px;
+    margin-right: 285px;
+    width: 5px;
+    height: 14px;
+    border-radius: 99px;
+    background-color: #49f349;
+    border: 1px solid;
+}
+.formulaForm {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top:25px;
+    margin-left: 35px;
+    width: 90%;
+    height: 80%;
+    background-color: rgb(58, 58, 58);
+}
+
+.paragraf {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.Formula {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 120px;
+    justify-content: start;
+    align-items: center;
+}
+.formDescripton {
+    display: flex;
+    margin-top: 55px;
+    justify-content: center;
+    align-items: center;
+}
+.findN{
+    color: #1d0ef6;
+    margin-right: 4px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.slideOne {
+
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-down {
+    margin: 25px;
+    
+}
+.arrow-down span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    border-bottom: 4px solid rgba(58, 58, 58, 0.807);
+    border-right: 4px solid rgba(58, 58, 58, 0.869);
+    transform: rotate(45deg);
+    animation: arrow-down 2s infinite;
+    cursor: pointer;
+    transition: 0.6 ease;
+}
+
+.arrow-down span:hover{
+    border-bottom: 4px solid rgba(58, 58, 58, 0.36);
+    border-right: 4px solid rgba(58, 58, 58, 0.36);
+}
+
+.spanTop {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    border-bottom: 4px solid rgba(58, 58, 58, 0.807);
+    border-right: 4px solid rgba(58, 58, 58, 0.869);
+    transform: rotate(222deg);
+    animation: arrow-down 2s infinite;
+    cursor: pointer;
+    transition: 0.6 ease;
+}
+.spanTop:hover {
+    border-bottom: 4px solid rgba(58, 58, 58, 0.36);
+    border-right: 4px solid rgba(58, 58, 58, 0.36);
+}
+

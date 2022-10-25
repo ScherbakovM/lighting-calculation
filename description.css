@@ -1,0 +1,76 @@
+#descriptionNorms {
+box-sizing: border-box;
+margin-top: 400px;
+display: flex;
+justify-content: start;
+align-items: flex-start;
+flex-direction: column;
+width:  700px;
+height: 550px;
+background-color: rgb(255, 255, 255);
+border: 1px solid black;
+border-radius: 25px;
+box-shadow: 1px 2px 0px rgb(71, 71, 71);
+scroll-snap-align: start;
+}
+.parTable{
+    margin-left:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+}
+.tableForm{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 35px;
+    width: 90%;
+    height: 450px;
+}
+.table {
+    font-size: 15px;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+
+}
+.descrTable{
+    color: white;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(71, 71, 71);
+    
+}
+.descrTable1,
+.descrTable3 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    background-color: #fa8963;
+    border: 1px solid rgb(71, 71, 71);
+}
+
+
+.descrTable2,
+.descrTable4 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    background-color: #9bacf7;
+    border: 1px solid rgb(71, 71, 71);
+}
