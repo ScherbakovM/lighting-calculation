@@ -52,4 +52,10 @@ btnTopThree.addEventListener('click', (scroll5) =>  {
 // Инпуты 
 
 const blockE = document.getElementById('blockE');
-console.log(blockE);
+const blockS = document.getElementById('blockS');
+const blockH = document.getElementById('blockH');
+const blockF = document.getElementById('blockF');
+
+
+
+

@@ -51,24 +51,41 @@
 }
 
 .calcOutPut {
-    margin-top: 20px;
-    width: 100px;
-    height: 20px;
-    background-color: white;
+    border: 1px solid #797979;
+    width: 270px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
     color: black;
-    border: 1px solid black; 
+    border-top: 1px solid;
 }
+
+
+
 .answer {
     margin-top: 10px;
+    height: 60px;
+    
 }
 .calcBtn{
-    transition: 0.4 ease;
-    height: 25px;
+
+    transition : 0.5s ease-out;
+    height: 35px;
+    background-color: #fbb066;
+    border: none ;
+    cursor: pointer;
+    outline: none;
 }
 .calcBtn:hover{
-    border: 2px  solid black;  
+    border: none;
+    background-color: #fe1010;
+
 }
 .lastSpan{
     font-size: 30px;
     color: crimson;
+}
+
+.inpEnter {
+    padding: 0;
+    outline: none;
 }
