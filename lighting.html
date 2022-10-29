@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="lighting.css">
     <link rel="stylesheet" href="description.css">
     <link rel="stylesheet" href="descriptionCeiling.css">
+    <link rel="stylesheet" href="calculation.css">
 <body>
 
   <!-- вступительный слайд   -->
@@ -106,20 +107,15 @@
         </div>
         </div>
 
-
-<!-- следующий слайд -->
-
-
  <!-- следующий слайд  описание  -->
-
 
  <div id ="descriptionCeiling">
     <div class="descriptionCeiling">
         <button class="btnMenu" id ="btnFirst"></button>
         <button class="btnMenu" id = "btnSecond"></button>
-          <div class="Top" id = top_Two >
-                <span class = "spanTop"></span>
-         </div>
+            <div class="Top" id = top_Two >
+               <span class = "spanTop"></span>
+            </div>
     </div>
   <div class = "formulaForm">
             <div class = "tableCeiling">
@@ -132,18 +128,49 @@
                 <div class = "ceilingTab1">3,0 - 3,5м</div>
                 <div class = "ceilingTab1">1,5</div>
                 <div class = "ceilingTab1">3,5 - 4,5м</div>
-                <div class = "ceilingTab1">2</div>
-                
+                <div class = "ceilingTab1">2</div>     
             </div>
         
-  
-
-       <div class="slide">
+       <div class="slide" id ="scrollB4">
          <div class="arrow-down">
           <span class = "spanOver"></span>
          </div>
        </div>
     </div>
+ </div>
+
+<!-- Блок с  расчётом -->
+
+<div id ="calculation">
+    <div class = "calculation">
+              <div class="buttonFormCalc">
+                  <button class="btnMenu" id ="btnFirst"></button>
+                  <button class="btnMenu" id = "btnSecond"></button>
+                      <div class="Top" id = top_Three >
+                          <span class = "spanTop"></span>
+                      </div>
+              </div>
+    </div>
+         <div class = "calculationForm">
+            <div class="paragrafСalc"> Введите ваши данные : </div>
+            
+         
+                      <div class="userEntered">
+                          <input type="number" id ="blockE" placeholder ="E - Норма освещённости">
+                          <input type="number" id = "blockS" placeholder ="S - Площадь помещения (м.кв.)">
+                          <input type="number" id = "blockH" placeholder ="H - Коэффициент высоты потолков">
+                          <input type="number" id = "blockF" placeholder = "F - Световой поток лампы (Лм)">
+                          <div class ="answer"> N - необходимое кол-во <br>лампочек  <span class = "lastSpan">=</span> </div>
+                          <button type="button " class="calcBtn">Рассчитать</button>
+                          <output type="number" id = "answer" class ="calcOutPut" placeholder = "N - Колличество лампочек" ></output>
+                          
+                      </div>
+         </div>
+    
+</div>
+   
+
+
 </body>
 <script src ="sсript.js"></script>
 </html>

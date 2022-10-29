@@ -4,7 +4,7 @@ head {
 body {
     padding:0px;
     margin: 0px;
-    width:  110%;
+    width:  100%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
