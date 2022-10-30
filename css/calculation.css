@@ -60,6 +60,8 @@
     background-color: rgb(255, 255, 255);
     color: black;
     border-top: 1px solid;
+    border-radius: 0;
+    box-sizing: border-box;
 }
 
 
@@ -77,6 +79,8 @@
     border: 1px solid #797979 ;
     cursor: pointer;
     outline: none;
+    box-sizing: border-box;
+    border-radius: 0;
 }
 .calcBtn:hover{
     border: none;
@@ -89,9 +93,12 @@
 }
 
 .inpEnter {
+
+    box-sizing: border-box;
     height: 25px;
     padding: 0;
     outline: none;
+    border-radius: 0;
 }
 
 @media (max-width: 450px) {
