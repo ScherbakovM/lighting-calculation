@@ -147,3 +147,69 @@ body {
     border-right: 4px solid rgba(58, 58, 58, 0.36);
 }
 
+@media (max-width: 420px){
+
+#calcForm {
+
+   width: 370px;
+   height: 550px;
+
+}
+
+#btnFirst {
+
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 5px;
+    width: 1px;
+    height: 12px;
+     
+}
+
+#btnSecond {
+    margin-top: 10px;
+    margin-right: 15px;
+    width: 1px;
+    height: 12px;
+    border-radius: 999px;
+    border: 1px solid;
+}
+
+.paragraf {
+    text-align: center;
+    margin-top: 75px;
+    font-size: 18px;
+}
+
+.formulaForm {
+    font-size: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 90%;
+    height: 80%;
+    background-color: rgb(58, 58, 58);
+    
+}
+.Formula {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 40px;
+    justify-content: start;
+    align-items: center;
+}
+
+.slideOne {
+    margin-top: 85px;
+    
+}
+
+
+
+
+
+}
