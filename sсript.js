@@ -48,6 +48,13 @@ btnTopThree.addEventListener('click', (scroll5) =>  {
 
 
 //Блок для расчета 
+// Кнопка 
+
+const btnResult = document.getElementById('btnCalc')
+
+// Окно для ответа 
+
+const answerWindow = document.getElementById('answer')
 
 // Инпуты 
 
@@ -55,6 +62,12 @@ const blockE = document.getElementById('blockE');
 const blockS = document.getElementById('blockS');
 const blockH = document.getElementById('blockH');
 const blockF = document.getElementById('blockF');
+
+btnResult.addEventListener('click', (answerRes) => {
+  let res = ((blockE.value * blockS.value * blockH.value) / blockF.value);
+  answerWindow.innerHTML = "Вам необходимо " + Math.ceil(res) + " лампочек" ;
+});
+
 
 
 

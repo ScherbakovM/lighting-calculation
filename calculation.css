@@ -44,15 +44,18 @@
 }
 
 .userEntered {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
 .calcOutPut {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 18px;
     border: 1px solid #797979;
-    width: 270px;
     height: 30px;
     background-color: rgb(255, 255, 255);
     color: black;
@@ -67,11 +70,11 @@
     
 }
 .calcBtn{
-
+    font-size: 18px;
     transition : 0.5s ease-out;
     height: 35px;
     background-color: #fbb066;
-    border: none ;
+    border: 1px solid #797979 ;
     cursor: pointer;
     outline: none;
 }
@@ -86,6 +89,7 @@
 }
 
 .inpEnter {
+    height: 25px;
     padding: 0;
     outline: none;
 }
