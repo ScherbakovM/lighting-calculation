@@ -110,7 +110,7 @@ scroll-snap-align: start;
 
         #btnSecond {
             margin-top: 10px;
-            margin-right: 118px;
+            margin-right: 120px;
             width: 1px;
             height: 12px;
             border-radius: 999px;
@@ -134,7 +134,7 @@ scroll-snap-align: start;
             height: 100%;
             display: grid;
             grid-template-columns: 25% 25% 25% 25%;
-            grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+            grid-template-rows: 70px 50px 50px 50px 50px 50px 50px 50px;
         }
         
         
