@@ -108,14 +108,7 @@ scroll-snap-align: start;
             transition: 0.6 ease;
         }
 
-        #btnSecond {
-            margin-top: 10px;
-            margin-right: 120px;
-            width: 1px;
-            height: 12px;
-            border-radius: 999px;
-            border: 1px solid;
-        }
+       
         .tableForm {
             font-size: 18px;
             color: rgb(0, 0, 0);

@@ -12,10 +12,13 @@ body {
     box-sizing: border-box;
     flex-direction: column;
 }
+
 .buttonForm{
+    width: 90%;
+    margin-left: 5%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center
 }
 
 #calcForm {
@@ -147,7 +150,7 @@ body {
     border-right: 4px solid rgba(58, 58, 58, 0.36);
 }
 
-@media (max-width: 420px){
+@media (max-width: 450px){
 
 #calcForm {
 
@@ -157,20 +160,22 @@ body {
 }
 
 #btnFirst {
-
+    display: none;
+    margin-left: 0px;
     margin-top: 10px;
-    margin-left: 25px;
     margin-right: 5px;
     width: 1px;
-    height: 12px;
+    height: 13px;
+    
      
 }
 
 #btnSecond {
+    display: none;
     margin-top: 10px;
-    margin-right: 15px;
+    margin-right: 0px;
     width: 1px;
-    height: 12px;
+    height: 13px;
     border-radius: 999px;
     border: 1px solid;
 }
@@ -204,12 +209,18 @@ body {
 }
 
 .slideOne {
-    margin-top: 85px;
+    margin-top: 95px;
     
 }
 
 
-
+#top_One {
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
 
 
 }

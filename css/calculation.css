@@ -93,3 +93,21 @@
     padding: 0;
     outline: none;
 }
+
+@media (max-width: 450px) {
+    #calculation {
+    width:  370px;
+    height: 550px;
+    }
+
+    .calculationForm {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .calculation {
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+}
