@@ -17,8 +17,7 @@ body {
     width: 90%;
     margin-left: 5%;
     display: flex;
-    flex-direction: row;
-    justify-content: center
+    justify-content: start;
 }
 
 #calcForm {
@@ -40,7 +39,6 @@ body {
 #btnFirst {
 
     margin-top: 15px;
-    margin-left: 25px;
     margin-right: 5px;
     width: 5px;
     height: 14px;
@@ -51,7 +49,7 @@ body {
 }
 #btnSecond {
     margin-top: 15px;
-    margin-right: 285px;
+    margin-right: 273px;
     width: 5px;
     height: 14px;
     border-radius: 99px;
@@ -222,5 +220,9 @@ body {
    
 }
 
+
+.buttonForm{
+    justify-content: center;
+}
 
 }
