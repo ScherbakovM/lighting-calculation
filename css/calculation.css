@@ -60,7 +60,7 @@
     height: 30px;
     background-color: rgb(255, 255, 255);
     color: black;
-    border-top: 1px solid;
+    border: 1px solid #797979;
     border-radius: 0;
     box-sizing: border-box;
 }
@@ -100,6 +100,17 @@
     padding: 0;
     outline: none;
     border-radius: 0;
+}
+
+@media (max-width: 750px) {
+    #calculation{ 
+    width:  520px;
+    height: 550px;
+    }
+    .calculationForm {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
 }
 
 @media (max-width: 450px) {

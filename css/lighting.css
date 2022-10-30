@@ -62,7 +62,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top:25px;
-    margin-left: 35px;
+    margin-left: 5%;
     width: 90%;
     height: 80%;
     background-color: rgb(58, 58, 58);
@@ -107,9 +107,9 @@ body {
 }
 
 .arrow-down {
-    margin: 25px;
-    
+    margin: 25px;    
 }
+
 .arrow-down span {
     display: flex;
     justify-content: center;
@@ -147,6 +147,29 @@ body {
     border-bottom: 4px solid rgba(58, 58, 58, 0.36);
     border-right: 4px solid rgba(58, 58, 58, 0.36);
 }
+
+
+@media (max-width: 750px) {
+    #calcForm {
+
+        width: 520px;
+        height: 550px;
+     
+     }
+    .paragraf {
+        text-align: center;
+    }
+    
+    .slideOne {
+
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
 
 @media (max-width: 450px){
 
